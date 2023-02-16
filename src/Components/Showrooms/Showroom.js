@@ -3,17 +3,25 @@ import React from "react";
 const Showroom = () => {
   return (
     <div className="flex justify-center">
-      <div className="w-8/12">
-        <div className="flex justify-between">
-          <h1>Our Showroom</h1>
+      <div className="w-8/12 pt-14">
+        <div className="flex justify-between pb-10">
+          <h1 className="text-4xl">Our Showroom</h1>
           <p>lorem ipsum dolor sit construction</p>
         </div>
 
-        <div className="container w-12/12 h-4/12">
-          <img
-            className="object-contain"
-            src="https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-          />
+        <div className="flex h-96 space-x-20">
+          <div className="relative">
+            <img className="h-96" src="./showroom1.jpg" />
+            <h1 className="absolute bottom-1 text-white left-3 text-lg">
+              Nike Air Showroom
+            </h1>
+          </div>
+          <div className="relative">
+            <img className="h-96" src="./showroom2.jpg" />
+            <h1 className="absolute bottom-1 text-white left-3 text-lg">
+              New Jersey Showroom
+            </h1>
+          </div>
         </div>
       </div>
     </div>

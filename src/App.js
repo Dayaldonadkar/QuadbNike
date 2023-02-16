@@ -1,6 +1,8 @@
 import React from "react";
 import All from "./Components/All Collection/All";
 import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
+import Logo from "./Components/Logo";
 import Navbar from "./Components/Navbar";
 import Popular from "./Components/Popular/Popular";
 import Showroom from "./Components/Showrooms/Showroom";
@@ -15,6 +17,8 @@ const App = () => {
       <Trending />
       <All />
       <Showroom />
+      <Logo />
+      <Footer />
     </div>
   );
 };
