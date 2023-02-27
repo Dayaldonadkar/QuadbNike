@@ -2,12 +2,12 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="flex justify-center py-20">
-      <div className="w-8/12 bg-black text-white flex items-center justify-around py-14 px-32">
-        <div className="space-y-5">
+    <div className="md:flex md:justify-center py-20">
+      <div className="md:w-8/12 bg-black text-white flex items-center justify-around py-14 md:px-32 px-10 space-y-3 space-x-5">
+        <div className="md:space-y-5 py-3">
           <h1 className="text-4xl">Become</h1>
           <h1 className="text-4xl">a Member</h1>
-          <p className="w-1/2">
+          <p className="md:w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
@@ -17,7 +17,7 @@ const Logo = () => {
         </div>
 
         <div>
-          <img className="w-72" src="./Nikewhite.png" />
+          <img className="md:w-72 w-36" src="./Nikewhite.png" />
         </div>
       </div>
     </div>

@@ -5,19 +5,19 @@ import EastIcon from "@mui/icons-material/East";
 const All = () => {
   return (
     <div className="flex justify-center pt-20">
-      <div className="w-8/12 space-y-6">
+      <div className="md:w-8/12 space-y-6">
         <div className="flex justify-between items-center">
           <h1 className="text-4xl">All Collection</h1>
           <p>Lorem ipsum dolor sit amet construction</p>
         </div>
 
-        <div className="flex space-x-5">
+        <div className="flex md:flex-row flex-col space-x-5 ">
           <Allcard img={"./Nike.png"} />
           <Allcard img={"./Nike.png"} />
           <Allcard img={"./Nike.png"} />
         </div>
 
-        <div className="flex space-x-5 pb-10">
+        <div className="md:flex md:flex-row flex-col space-x-5 pb-10">
           <Allcard
             img={
               "https://www.nicepng.com/png/detail/361-3611327_nike-air-max-1-ultra-flyknit-id-grey.png"

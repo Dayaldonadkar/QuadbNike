@@ -4,13 +4,13 @@ const ShoesCard = (props) => {
   return (
     <div className="flex ">
       <div className="flex">
-        <div className="bg-[#F8F8FA] space-y-11 px-28 py-6 rounded-lg ">
+        <div className="bg-[#F8F8FA] space-y-10 px-28 py-6 rounded-lg ">
           <div>
             <h1 className="flex justify-end">Add to Cart</h1>
           </div>
 
-          <div className="flex justify-center">
-            <img className="w-96" src={props.img} />
+          <div className="flex justify-center 72">
+            <img className="w-72" src={props.img} />
           </div>
 
           <div className="flex justify-between">

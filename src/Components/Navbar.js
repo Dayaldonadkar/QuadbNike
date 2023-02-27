@@ -4,8 +4,8 @@ import LocalMallIcon from "@mui/icons-material/LocalMall";
 const Navbar = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex justify-between w-9/12 text-lg items-center py-5">
-        <div className="flex gap-x-10">
+      <div className="flex justify-between md:w-9/12 text-lg items-center py-5">
+        <div className="md:flex md:flex-row flex-col gap-x-10">
           <h1>Our Collections</h1>
           <h1>About Us</h1>
         </div>

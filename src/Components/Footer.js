@@ -8,7 +8,7 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 const Footer = () => {
   return (
     <div className="flex justify-center pb-10">
-      <div className="flex w-8/12 justify-between border-b-2 pb-10">
+      <div className="md:flex md:flex-row w-8/12 justify-between border-b-2 pb-10 space-y-20">
         <div className="space-y-8">
           <div>
             <img src="./Nikelogo.png" />
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex space-x-24">
+        <div className="md:flex md:space-x-24 md:flex-row flex-col">
           <div className="space-y-8">
             <h1>Links</h1>
             <div className="text-gray-500 space-y-8">

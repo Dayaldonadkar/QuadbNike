@@ -5,7 +5,7 @@ import TrendingCard from "./TrendingCard";
 const Trending = (props) => {
   return (
     <div className="flex justify-center">
-      <div className="w-8/12">
+      <div className="md:w-8/12">
         <div className="flex justify-between pt-20 pb-10">
           <h1 className="text-4xl">Trending Now</h1>
           <div className="flex border-b-2 border-gray-500 text-xl space-x-3 items-center">
@@ -14,7 +14,7 @@ const Trending = (props) => {
           </div>
         </div>
 
-        <div className="flex justify-between space-x-10">
+        <div className="md:flex md:flex-row justify-between space-x-10 flex-col">
           <TrendingCard
             img={"./Nikejordan .jpg"}
             price={"Nike Air Max 270 React"}

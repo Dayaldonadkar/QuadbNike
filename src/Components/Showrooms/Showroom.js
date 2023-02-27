@@ -9,14 +9,14 @@ const Showroom = () => {
           <p>lorem ipsum dolor sit construction</p>
         </div>
 
-        <div className="flex h-96 space-x-20">
-          <div className="relative">
+        <div className="md:flex md:flex-row h-96 md:space-x-20 flex-col">
+          <div className="">
             <img className="h-96" src="./showroom1.jpg" />
             <h1 className="absolute bottom-1 text-white left-3 text-lg">
               Nike Air Showroom
             </h1>
           </div>
-          <div className="relative">
+          <div className="">
             <img className="h-96" src="./showroom2.jpg" />
             <h1 className="absolute bottom-1 text-white left-3 text-lg">
               New Jersey Showroom
